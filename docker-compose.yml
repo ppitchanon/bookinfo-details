@@ -1,0 +1,6 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/ppitchanon/bookinfo-details:dev
+    ports:
+      - "9080:9080"
